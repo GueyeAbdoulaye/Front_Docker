@@ -1,5 +1,5 @@
 <script lang="ts" setup></script>
 
 <template>
-    <p>hello</p>
+    <Auth />
 </template>
