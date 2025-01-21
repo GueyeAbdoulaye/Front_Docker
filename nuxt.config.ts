@@ -8,4 +8,17 @@ export default defineNuxtConfig({
     sanctum: {
         baseUrl: "http://localhost:80",
     },
+
+    postcss: {
+        plugins: {
+            tailwindcss: {},
+            autoprefixer: {},
+        },
+    },
+
+    runtimeConfig: {
+        public: {
+            accessKey: process.env.VITE_ACCESS_KEY
+        },
+    },
 });
