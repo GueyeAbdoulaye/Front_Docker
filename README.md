@@ -1,75 +1,43 @@
-# Nuxt Minimal Starter
+# Projet API avec Docker
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Description
 
-## Setup
+Ce projet est une application web construite avec **Nuxt 3** pour le frontend et **Laravel 11** pour le backend.
 
-Make sure to install dependencies:
+Ce site web permet d'afficher des images, de liker ou disliker ces images, et de permettre aux utilisateurs de s'inscrire pour interagir avec le site.
 
-```bash
-# npm
-npm install
+## Technologies
 
-# pnpm
-pnpm install
+- **Frontend** : Nuxt 3
 
-# yarn
-yarn install
+- **Containerisation** : Docker, Docker Compose
 
-# bun
-bun install
-```
+## Installation
 
-## Development Server
+1. **Clonez le dépôt** :
 
-Start the development server on `http://localhost:3000`:
+   ```bash
+   git clone https://github.com/GueyeAbdoulaye/Front_Docker.git
+   ```
 
-```bash
-# npm
-npm run dev
+2. \*\*A mettre dans le .env du front \*\*
 
-# pnpm
-pnpm dev
+   ```bash
+   VITE_ACCESS_KEY=OfPxLTCmFWipheMIk4ZyGI50KGEQ-qDZ52VrhMwk50M
+   ```
 
-# yarn
-yarn dev
+   Adaptez les fichiers `.env` selon vos besoins (base de données, ports, etc.).
 
-# bun
-bun run dev
-```
+3. \*\*AVANT tout faire \*\*:
 
-## Production
+   ```bash
+   npm i 
+   ```
 
-Build the application for production:
+**Commandes utiles**
 
-```bash
-# npm
-npm run build
+- **Démarrer le serveur**:
+  ```bash
+  npm run dev
+  ```
 
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
